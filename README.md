@@ -1,7 +1,9 @@
 # CookieNumberPrinter
 
-C++ class to print idle / incremental style numbers. See https://raymii.org for more
-info.
+C++ class to print idle / incremental style numbers. 
+
+See https://raymii.org/s/software/CookieNumberPrinter_incremental_game_style_numbers.html 
+for more info.
 
 ## Build
 
@@ -14,7 +16,7 @@ Install boost:
 Clone the git repository
 
 
-    git clone $address
+    git clone https://github.com/RaymiiOrg/cookienumberprinter
     
     
 Go in the folder and cmake / make
