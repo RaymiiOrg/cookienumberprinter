@@ -5,17 +5,19 @@ info.
 
 ## Build
 
-- Install boost:
+Install boost:
 
 
     apt install libboost-all-dev
 
-- Clone the git repository
+
+Clone the git repository
 
 
     git clone $address
     
-- Go in the folder and cmake / make
+    
+Go in the folder and cmake / make
 
 
     cd cookienumberprinter
@@ -24,12 +26,14 @@ info.
     cmake .. 
     make
 
-- Run the example:
+
+Run the example:
 
 
     ./cookienumberprinter
+
     
-- Output should be:
+Output should be:
 
 
     CookieNumberPrinter by https://raymii.org, examples.
