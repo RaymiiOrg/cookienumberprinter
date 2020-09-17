@@ -3,6 +3,10 @@ project(cookienumberprinter)
 
 set(CMAKE_CXX_STANDARD 14)
 
+SET (BOOST_ROOT "$ENV{BOOST_ROOT_1_72_0}")
+SET (BOOST_INCLUDEDIR "$ENV{BOOST_ROOT_1_72_0}\boost\include")
+SET (BOOST_LIBRARYDIR "$ENV{BOOST_ROOT_1_72_0}\lib")
+
 find_package(Boost REQUIRED COMPONENTS)
 if(Boost_FOUND)
     include_directories(${Boost_INCLUDE_DIR})
